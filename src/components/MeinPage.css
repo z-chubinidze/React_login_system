@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mein_div{
+    background-image: url(../image-2.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.logout-btn{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background: linear-gradient( red, gold, rgba(255, 255, 0, 0.411));
+    border:none;
+    box-shadow: 0 0 50px 20px gold;
+    font-weight: 700 !important;
+}
